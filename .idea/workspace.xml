@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14d94bcb-6e36-4c9b-91e2-af98d0c98db1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/ciphers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/ham-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/socials.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/ciphers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/socials.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/ancient.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/drawing.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/mainBg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/medieval.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/modern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/ncode.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/rene.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/war.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Videos/glue.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/redirect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -114,7 +91,7 @@
       <workItem from="1748952248081" duration="8397000" />
       <workItem from="1748963501614" duration="8043000" />
       <workItem from="1749043395734" duration="9714000" />
-      <workItem from="1749122233815" duration="7927000" />
+      <workItem from="1749122233815" duration="9488000" />
     </task>
     <servers />
   </component>

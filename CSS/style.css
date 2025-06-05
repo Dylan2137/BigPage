@@ -15,13 +15,12 @@ body{
     display:flex;
     flex-direction: column;
     background-size: cover;
-    background-attachment: fixed;
     min-height: 100vh;
     gap: 1rem;
     align-content: center;
     overflow-x: hidden;
     position: relative;
-    background-transparent;
+    background: transparent fixed;
 }
 
 body *{
