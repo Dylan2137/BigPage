@@ -1,0 +1,93 @@
+/*changing the second header font size to make it different from the first one*/
+h4{
+    font-size: 1.3rem;
+}
+
+/*full cipher layout (grid inside flex)*/
+.ciphers-list{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    background-color: var(--bg-primary);
+    opacity: 0.9;
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
+.cipher-item:hover{
+    filter: brightness(1.2);
+}
+.cipher-item{
+    transition: all 0.5s ease;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "header2 header2"
+        "description description2";
+    background-color: var(--bg-secondary);
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+    width: 48%;
+    gap: 5px;
+}
+.cipher-item *{
+    padding: 0.5rem;
+}
+.cipher-item > h2{
+    grid-area: header;
+    background-color: var(--bg-tertiary);
+    border-radius: 0.75rem;
+}
+.cipher-item > h4{
+    grid-area: header2;
+    background-color: var(--bg-primary);
+    border-radius: 0.75rem;
+}
+.desc1{
+    grid-area: description;
+    background-color: var(--bg-timeline-item);
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+}
+.desc2{
+    grid-area: description2;
+    background-color: var(--text-secondary);
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+    color: var(--text-primary);
+}
+/*3 columns on desktop screens*/
+@media (min-width: 992px){
+    .ciphers-list{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .cipher-item{
+        width: 32%;
+    }
+    .cipher-item > h2{
+        font-size: 1.5rem;
+    }
+    .cipher-item > h4{
+        font-size: 1.2rem;
+    }
+    .desc1, .desc2{
+        font-size: 1rem;
+    }
+
+}
+/*4 columns on big screens to not stretch the boxes*/
+@media (min-width: 1200px){
+    .cipher-item{
+        width: 24%;
+        min-height: 25vh;
+    }
+    .cipher-item > h2{
+        font-size: 1.8rem;
+    }
+    .cipher-item > h4{
+        font-size: 1.5rem;
+    }
+    .desc1, .desc2{
+        font-size: 1.2rem;
+    }
+}

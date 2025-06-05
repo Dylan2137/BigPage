@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nCode</title>
+    <meta name="description" content="nCode, the only encryption tool you'll ever need.">
+    <meta name="keywords" content="Encryptor, nCode, Cipher, Secret, Message">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/ham-menu.css">
+    <link rel="stylesheet" href="../CSS/ciphers.css">
+    <title>nCode ciphers page</title>
+</head>
+<body>
+<div class="parallax-bg"></div>
+    <nav>
+      <div class="logo">
+        <img src="../Images/drawing.svg" alt="Logo">
+      </div>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="socials.html">Socials</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h1>Ciphers</h1>
+            <p>nCode supports a range of both historic and custom-made ciphers. Each one transforms text in a unique way — try them, learn how they work, or create your own.</p>
+        </div>
+    </header>
+    <main class="content">
+        <ul class="ciphers-list">
+            <li class="cipher-item">
+                <h2>Caesar Cipher</h2>
+                <h4>🔁 Simple letter shift</h4>
+                <p class="desc1">Each letter is shifted by a fixed number (e.g., +3 → A → D).</p>
+                <p class="desc2">Very intuitive and iconic.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>ROT13</h2>
+                <h4>Fixed Caesar Shift</h4>
+                <p class="desc1">🔄 A Caesar cipher with a fixed shift of 13.</p>
+                <p class="desc2">Often used for mild obfuscation on the internet.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Atbash Cipher</h2>
+                <h4>🔍 Letter mirroring</h4>
+                <p class="desc1">Replaces each letter with its opposite in the alphabet (A ↔ Z).</p>
+                <p class="desc2">Simple and ancient.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Monoalphabetic Substitution</h2>
+                <h4><i class="fa-solid fa-font"></i>  Custom alphabet</h4>
+                <p class="desc1">Each letter is replaced with a unique substitute.</p>
+                <p class="desc2">Good for learning about frequency analysis.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Vigenère Cipher</h2>
+                <h4>🧬 Keyword-based shifting</h4>
+                <p class="desc1">Uses a repeating keyword to shift letters in multiple alphabets.</p>
+                <p class="desc2">Was considered unbreakable for centuries.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Affine Cipher</h2>
+                <h4><i class="fa-solid fa-calculator"></i> Mathematical encoding</h4>
+                <p class="desc1">Applies a formula: (a×x + b) mod 26 to each letter's position.</p>
+                <p class="desc2">Combines math and substitution.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Keyword Cipher</h2>
+                <h4>🗝 Alphabet reordered by keyword</h4>
+                <p class="desc1">Uses a keyword to create a custom alphabet.</p>
+                <p class="desc2">A structured twist on monoalphabetic ciphers.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Rail Fence Cipher</h2>
+                <h4><i class="fa-solid fa-lines-leaning"></i> Zig-zag pattern</h4>
+                <p class="desc1">Letters are written in a zigzag pattern and read line by line.</p>
+                <p class="desc2">Simple and visual transposition cipher.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Columnar Transposition</h2>
+                <h4>▦ Grid-based reordering</h4>
+                <p class="desc1">Write the message in a table by rows and read columns in a keyword order.</p>
+                <p class="desc2">Teaches structural transformation of data.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Mirror Text</h2>
+                <h4>🔁 Reverse text</h4>
+                <p class="desc1">Reverses the message left to right.</p>
+                <p class="desc2">Simple, fun, and often used for obfuscation.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Scytale Cipher</h2>
+                <h4>📜 Ancient transposition</h4>
+                <p class="desc1">Wraps a strip of text around a rod to reveal the message.</p>
+                <p class="desc2">Used by ancient Spartans — easy to simulate with row-column logic.</p>
+            </li>
+
+            <li class="cipher-item">
+                <h2>Custom Cipher</h2>
+                <h4>🧩 User-defined rules</h4>
+                <p class="desc1">Allows users to create their own substitution or transposition rules.</p>
+                <p class="desc2">Flexible and great for learning.</p>
+            </li>
+
+        </ul>
+    </main>
+    <footer class="footer">
+      <p>nCode is a private project created by LTB LLC all rights reserved TM for personal use only. If you'd like to contact us regarding any bugs, DON'T every bug is a feature and your reports WILL be ignored.</p>
+    </footer>
+    <button id="back-to-top" title="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://kit.fontawesome.com/bb16da47bf.js" crossorigin="anonymous"></script>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>

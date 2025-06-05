@@ -1,0 +1,43 @@
+/*small changes to the about section grid*/
+.overlay{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+.article2{
+    display:flex;
+    flex-direction: column;
+    gap: 15%;
+}
+#glue{
+    position: fixed;
+    top: 50%;
+}
+.glueCrypt{
+    cursor: pointer;
+}
+.iks{
+    background-color: var(--bg-primary);
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    border-radius: 50%;
+    font-size: 2rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+
+}
+.overlay.active{
+    filter: brightness(0.5);
+}
+@media (min-width: 992px){
+    .content{
+        grid-template-areas:
+            "header header"
+            "article aside"
+            "article2 uses";
+
+
+    }
+}

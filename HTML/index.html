@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nCode</title>
+    <meta name="description" content="nCode, the only encryption tool you'll ever need.">
+    <meta name="keywords" content="Encryptor, nCode, Cipher, Secret, Message">
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/ham-menu.css">
+    <link rel="stylesheet" href="../CSS/timeline.css">
+
+</head>
+<body>
+<div class="parallax-bg"></div>
+    <nav>
+        <div class="logo">
+            <img src="../Images/drawing.svg" alt="Logo">
+        </div>
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="ciphers.html">Ciphers</a>
+            </li>
+            <li>
+                <a href="socials.html">Socials</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <ul class="submenu" onclick="toggleHam()">
+                    <li>
+                        <a href="#top">Top</a>
+                    </li>
+                    <li>
+                        <a href="#main-content">Content</a>
+                    </li>
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#why">Why?</a>
+                    </li>
+                    <li>
+                        <a href="#timeline">Timeline</a>
+                    </li>
+                    <li>
+                        <a href="#uses">Uses</a>
+                    </li>
+                    <li>
+                        <a href="#bottom">Bottom</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header-content" id="top">
+        <h1 >Welcome to nCode</h1>
+        <h2>Simple. Human. Encryption</h2>
+    </header>
+
+    <main class="content" id="main-content">
+        <article class="article-content">
+            <p>nCode is a lightweight, easy-to-use text encryptor based on classical human-friendly ciphers like Caesar shifts, substitution patterns, and monoalphabetic schemes.</p>
+            <p>Whether you're learning about cryptography or just having fun with secret messages, nCode lets you encode and decode text in a way that’s both intuitive and transparent—no black boxes, just pure logic.</p>
+        </article>
+
+        <aside class="aside-content" id="features">
+                <h3>Features:</h3>
+                <p>🔁 Multiple Ciphers – Encrypt your messages using a multitude of ciphers and methods.<p>
+                <p>🛠 Custom ciphers - You can create your own ciphers (either by modifying the code directly or by using the cipher editor) and use them for your own needs.</p>
+                <p>🧠 Fully Transparent – This project is 100% open source, you can freely inspect and modify the code to customize the encryptor to your needs.</p>
+                <p>📤 Copy & Share your encrypted messages instantly</p>
+        </aside>
+
+        <article class="article2" id="why">
+            <h3>🧪 Why "human ciphers"?</h3>
+            <p>Because encryption doesn't always need to be complicated. nCode isn't meant for cybersecurity purposes, but it's a perfect tool to use for all of your real life applications, be it escape rooms, ARGs, or just sharing secret messages with friends.</p>
+        </article>
+
+        <section class="timeline" id="timeline">
+            <header class="timeline-title">
+                <h3><b>📜 From scrolls to Screens: A short history of ciphers</b></h3>
+                <p>From ancient scrolls to modern screens, ciphers have always been a part of human communication. They evolved from simple substitution methods used by the Romans to complex algorithms securing today's digital data. Here's their short history. (click on each era to learn more)</p>
+            </header>
+            <div class="timeline-line">
+                <p class="timeline-button"><i class="fa-solid fa-timeline"></i></p>
+                <ul class="timeline-list">
+                    <li class="ancient-timeline">
+                        <h4>🏛Ancient Times</h4>
+                        <div>
+                            <h5>📜🔁 Caesar Cipher (c. 100 BCE)</h5>
+                            <p>One of the earliest known ciphers, used by Julius Caesar to protect military messages. It shifts letters by a fixed number, making it easy to encode and decode.</p>
+                        </div>
+                    </li>
+
+                    <i class="fa-solid fa-arrow-down" style="font-size: 100px; margin:20px;"></i>
+                    <li class="medieval-timeline">
+                        <h4><i class="fa-solid fa-chess-rook"></i>Medieval Era</h4>
+                        <div>
+                            <h5><i class="fa-solid fa-right-left"></i>Monoalphabetic Substitution (c. 900 CE)</h5>
+                            <p>One of the earliest known ciphers, used by Julius Caesar to protect military messages. It shifts letters by a fixed number, making it easy to encode and decode.</p>
+                        </div>
+                    </li>
+
+                    <i class="fa-solid fa-arrow-down" style="font-size: 100px; margin:20px;"></i>
+                    <li class="rene-timeline">
+                        <h4>🎨 Renaissance Era</h4>
+                        <div>
+                            <h5><i class="fa-solid fa-key"></i> Vigenère Cipher (1500s)</h5>
+                            <p>A polyalphabetic cipher using repeating keyword shifts, believed to be unbreakable for centuries.</p>
+                        </div>
+                    </li>
+
+                    <i class="fa-solid fa-arrow-down" style="font-size: 100px; margin:20px;"></i>
+                    <li class="war-timeline">
+                        <h4>⚔ Wartime Era (20th Century)</h4>
+                        <div>
+                            <h5><i class="fa-solid fa-gears"></i> Enigma Machine (1930s–1945)</h5>
+                            <p>A rotor-based cipher machine used by Nazi Germany in WWII. It encrypted messages with complex settings that changed daily.
+                                Alan Turing and his team cracked the code, which helped the Allies win the war and changed cryptography forever.</p>
+                        </div>
+                    </li>
+
+                    <i class="fa-solid fa-arrow-down" style="font-size: 100px; margin:20px;"></i>
+                    <li class="modern-timeline">
+                        <h4>💻 Modern Era</h4>
+                        <div>
+                            <h5><i class="fa-solid fa-lock"></i> RSA, AES, and Other Algorithms (1970s–present)</h5>
+                            <p>With the rise of computers and the internet, encryption evolved into complex mathematical algorithms like RSA, AES, and SHA. These secure everything from online banking and e-commerce to private messaging and data storage.
+                                Modern cryptography ensures privacy, authenticity, and data integrity in our digital world, making secure communication and transactions possible at global scale.</p>
+                        </div>
+                    </li>
+
+                    <i class="fa-solid fa-arrow-down" style="font-size: 100px; margin:20px;"></i>
+                    <li class="present-timeline">
+                        <h4>🌐 The Present</h4>
+                        <div>
+                            <h5><i class="fa-solid fa-wand-magic-sparkles"></i> nCode (Now)</h5>
+                            <p>Bringing classic, human-readable ciphers to the modern web for education and fun. "From Caesar to cyberspace — explore the evolution of secrecy."</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <aside class="uses" id="uses">
+            <h3>Uses of nCode</h3>
+            <p>nCode is perfect for:</p>
+            <ul>
+                <li><i class="fa-solid fa-user-secret"></i> Creating secret messages for escape rooms or ARGs</li>
+                <li><i class="fa-solid fa-graduation-cap"></i> Learning about cryptography in a fun and interactive way</li>
+                <li><i class="fa-solid fa-share-nodes"></i> Sharing encrypted messages with friends and family</li>
+                <li><i class="fa-solid fa-infinity"></i> Customizing ciphers for personal use or projects</li>
+            </ul>
+            <p>Whether you're a beginner or an experienced cryptographer, nCode offers a simple and intuitive way to explore the world of encryption.</p>
+        </aside>
+    </main>
+
+    <footer class="footer" id="bottom">
+        <p>nCode is a private project created by LTB LLC all rights reserved TM for personal use only. If you'd like to contact us regarding any bugs, DON'T every bug is a feature and your reports WILL be ignored.</p>
+    </footer>
+    <button id="back-to-top" title="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://kit.fontawesome.com/bb16da47bf.js" crossorigin="anonymous"></script>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>

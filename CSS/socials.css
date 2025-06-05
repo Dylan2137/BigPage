@@ -1,0 +1,119 @@
+/*layout of the social medias*/
+.content{
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+}
+.secret{
+    display: none;
+}
+.socials-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5vh;
+    padding: 0.5rem;
+    background-color: var(--bg-secondary);
+    border-radius: 0.5rem;
+    width:100%;
+    justify-content: center;
+}
+.socials-item{
+    font-size: 700%;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease;
+    width: 18%;
+}
+
+.socials-item:hover {
+    transform: translate(-2px, -3px);
+}
+
+
+/*setting specific colors for every social media*/
+.fa-facebook-square:hover {
+    color: #1877f2;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}
+
+.fa-youtube:hover {
+    color: #ff0000;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-github:hover {
+    color: #333333;
+}
+
+.fa-tiktok:hover {
+    color: #000000;
+}
+
+.fa-discord:hover {
+    color: #5865f2;
+}
+
+.fa-reddit:hover {
+    color: #ff4500;
+}
+
+.fa-pinterest:hover {
+    color: #e60023;
+}
+
+.fa-snapchat:hover {
+    color: #fffc00;
+}
+
+.fa-tumblr:hover {
+    color: #35465c;
+}
+
+.fa-quora:hover {
+    color: #a82400;
+}
+
+.fa-medium:hover {
+    color: #00ab6c;
+}
+
+.fa-slack:hover {
+    color: #4a154b;
+}
+
+.fa-telegram:hover {
+    color: #0088cc;
+}
+
+.fa-whatsapp:hover {
+    color: #25d366;
+}
+
+
+/*changing amount of columns for different screen sizes*/
+@media (min-width: 1200px){
+    .content{
+        display:flex;
+        flex-direction: row;
+    }
+    .socials-item{
+        width: 13vw;
+        font-size: 1000%;
+    }
+}
+@media (min-width: 740px) and (max-width: 992px){
+    .socials-item{
+        font-size: 500%;
+    }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encryptor for all your secretive purposes.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/ham-menu.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+    <title>nCode About page</title>
+</head>
+<body>
+<div class="parallax-bg"></div>
+<div class="overlay">
+    <nav>
+        <div class="logo">
+            <img src="../Images/drawing.svg" alt="Logo">
+        </div>
+        <div class="ham-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="ciphers.html">Ciphers</a>
+            </li>
+            <li>
+                <a href="socials.html">Socials</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>About nCode</h1>
+            <h2>nCode was created in a few days, for a school project I had a month to complete.</h2>
+        </div>
+    </header>
+    <main class="content">
+        <article class="article-content">
+            <h2>🛠️ Project Purpose</h2>
+            <p>nCode was built as a school project for my Webpage Workshop class, it's the biggest project yet, that we had over a month to complete, but because I'm a procrastinator, I only started it in the last two weeks.</p>
+        </article>
+        <aside class="aside-content">
+            <h2>💡 Inspiration</h2>
+            <p>The inspiration for the name was of course dCode, but it wasn't the inspiration for the whole project. I wanted to make an encryptor for a long time, I made an HTML special sign converter once, and wanted to expand it to a full blown encryptor, but never got to it until nCode, what also pushed me to work was my friend's big project, it's also an encryptor (although more cybersec based) called <span class="glueCrypt" onclick="toggleVideo()">GlueCrypt.</span></p>
+        </aside>
+        <article class="article2">
+            <h2>🔧 Development Highlights</h2>
+            <p><i class="fa-solid fa-bars"></i> Added a hamburger menu and made it responsive for bigger screens.</p>
+            <p>▓ Made the layout responsive (flex for phones, grid for computers)</p>
+            <p><i class="fa-solid fa-timeline"></i> Added a timeline of ciphers and made it fully responsive, changing the layout when it's open for better readability.</p>
+            <p><i class="fa-solid fa-font"></i> Added responsive font size scaling</p>
+        </article>
+        <aside class="uses">
+            <h2>🧠 What I Learned</h2>
+            <h4>Throughout the whole process of making this project, I've learnt many things, mainly related to CSS, and here are some of them:</h4>
+            <h6><i class="fa-solid fa-map-location-dot"></i> Positioning</h6>
+            <p>While building this project I've become way more proficient with scaling, positioning, and moving items on a webpage.</p>
+            <h6>▣ CSS Layouts</h6>
+            <p>I've learned how to use flexbox and grid to create responsive layouts that adapt to different screen sizes.</p>
+            <h6><i class="fa-solid fa-desktop"></i> Responsive Design</h6>
+            <p>I've learned how to make a webpage responsive, so it looks good on both mobile and desktop devices.</p>
+            <h6><i class="fa-solid fa-braille"></i> Project division</h6>
+            <p>I've learned how to divide a project into smaller parts, so I can work on them separately and then combine them into one big project.</p>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>nCode is a private project created by LTB LLC all rights reserved TM for personal use only. If you'd like to contact us regarding any bugs, DON'T every bug is a feature and your reports WILL be ignored.</p>
+    </footer>
+</div>
+
+    <div id="glue" hidden>
+        <video width="100%" height="auto" autoplay loop>
+            <source src="../Videos/glue.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <i class="fa-solid fa-xmark iks" onclick="closeVideo()"></i>
+    </div>
+    <button id="back-to-top" title="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <script src="https://kit.fontawesome.com/bb16da47bf.js" crossorigin="anonymous"></script>
+    <script src="../Scripts/script.js"></script>
+</body>
+</html>
