@@ -10,8 +10,10 @@
     gap: 15%;
 }
 #glue{
+    width: 100%;
     position: fixed;
-    top: 50%;
+    top: 25vh;
+    
 }
 .glueCrypt{
     cursor: pointer;
